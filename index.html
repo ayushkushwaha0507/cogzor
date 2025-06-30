@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cogzor | Smart Web Solutions for Startups, SMEs, and Enterprises</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Cogzor delivers scalable, high-performance web solutions for startups, SMEs, and enterprises. Trusted by clients across Bengaluru, Mumbai, and NCR." />
+    <meta name="keywords" content="Cogzor, Web Development, Tech Company, Software Solutions, Startups, SMEs, Bengaluru, Mumbai, NCR" />
+    <meta name="author" content="Cogzor Technologies Pvt Ltd" />
+    <meta name="robots" content="index, follow" /> <meta property="og:title" content="Cogzor | Scalable Tech Solutions" />
+    <meta property="og:description" content="Custom web development by Cogzor for startups, SMEs, and enterprises." />
+    <meta property="og:image" content="/images/og-image.jpg" />
+    <meta property="og:url" content="https://www.cogzor.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="./public/cogzor_fav.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Lato:wght@300;400;700;900&display=swap"
+    />
+        <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./style.css " />
+    <style data-tag="reset-style-sheet">
+  html {
+    line-height: 1.15;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  p, li, ul, pre, div, h1, h2, h3, h4, h5, h6,
+  figure, blockquote, figcaption {
+    margin: 0;
+    padding: 0;
+  }
+
+  button {
+    background-color: transparent;
+  }
+
+  button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+
+  button, select {
+    text-transform: none;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  img {
+    display: block;
+  }
+</style>
+
+</head>
+
+  <body>
+    
+    <div>
+      <div class="home-container1">
+       <header class="home-header1">
+                <div class="home-navbar-interactive">
+                  <!-- Logo -->
+                  <div class="home-branding1" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1500">
+                    <img src="public/cogzor_Logo.png" alt="Cogzor" class="home-image10" />
+                  </div>
+
+                  <!-- Desktop Menu -->
+                  <div class="home-desktop-menu" id="desktopMenu">
+                    <nav class="home-links1">
+                      <button class="home-button10 button"data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">About</button>
+                      <button class="home-button11 button"data-aos="fade-down" data-aos-delay="200" data-aos-duration="1500">Solutions</button>
+                      <button class="home-button12 button"data-aos="fade-down" data-aos-delay="300" data-aos-duration="1500">Insights</button>
+                      <button class="home-button12 button"data-aos="fade-down" data-aos-delay="400" data-aos-duration="1500">Get in Touch</button>
+
+                    </nav>
+                  </div>
+                  <script>
+                      document.querySelector('.home-button10').addEventListener('click', () => {
+                        document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+                      });
+
+                      document.querySelector('.home-button11').addEventListener('click', () => {
+                        document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+                      });
+
+                      document.querySelector('.home-button12').addEventListener('click', () => {
+                        document.getElementById('insights').scrollIntoView({ behavior: 'smooth' });
+                      });
+
+                      // If both buttons have the same class, use nth-of-type or querySelectorAll
+                      document.querySelectorAll('.home-button12')[1].addEventListener('click', () => {
+                        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                      });
+                    </script>
+
+
+                  <!-- Burger Icon (Mobile) -->
+                  <div class="home-burger-menu" id="burgerMenu">
+                    <img src="public/group%202084%5B1%5D.svg" class="home-hamburger" alt="menu" />
+                  </div>
+                </div>
+
+               <!-- MOBILE MENU -->
+                <div class="home-mobile-menu" id="mobileMenu">
+                  <!-- Top Bar -->
+                  <div class="home-top">
+                    <div class="home-branding2">
+                      <img src="public/cogzor_Logo.png" alt="Cogzor" class="home-image10" />
+                    </div>
+                    <div class="home-menu-close" id="closeMenu" style="cursor: pointer;">
+                      <svg viewBox="0 0 1024 1024" width="24" height="24">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                          fill="#122821"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <!-- Navigation Buttons (Stacked) -->
+                  <nav class="home-links1 mobile-links" id="mobileLinks">
+                    <button class="home-button10 button mobile-button-home" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">Home</button>
+                      <button class="home-button11 button mobile-button-solutions"data-aos="fade-down" data-aos-delay="200" data-aos-duration="1500">Solutions</button>
+                      <button class="home-button12 button mobile-button-insights"data-aos="fade-down" data-aos-delay="300" data-aos-duration="1500">Insights</button>
+                      <button class="home-button12 button mobile-button-contactdata-aos="fade-down" data-aos-delay="400" data-aos-duration="1500">Get in Touch</button>
+                   </nav>
+
+                  <!-- Social Icons -->
+                  <div class="mobile-social-icons">
+                    <a href="https://instagram.com" target="_blank">
+                      <img src="public/instagram.svg" alt="Instagram" class="mobile-icon" />
+                    </a>
+                    <a href="https://linkedin.com" target="_blank">
+                      <img src="public/linkedin.svg" alt="LinkedIn" class="mobile-icon" />
+                    </a>
+                    <a href="https://wa.me/918888888888" target="_blank">
+                      <img src="public/whatsapp.svg" alt="WhatsApp" class="mobile-icon" />
+                    </a>
+                  </div>
+                </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                    document.querySelector('.mobile-button-home')?.addEventListener('click', () => {
+                      document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+                      document.getElementById('mobileMenu').style.transform = "translateX(100%)"; // ✅ close menu
+                    });
+
+                    document.querySelector('.mobile-button-solutions')?.addEventListener('click', () => {
+                      document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+                      document.getElementById('mobileMenu').style.transform = "translateX(100%)";
+                    });
+
+                    document.querySelector('.mobile-button-insights')?.addEventListener('click', () => {
+                      document.getElementById('insights')?.scrollIntoView({ behavior: 'smooth' });
+                      document.getElementById('mobileMenu').style.transform = "translateX(100%)";
+                    });
+
+                    document.querySelector('.mobile-button-contact')?.addEventListener('click', () => {
+                      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                      document.getElementById('mobileMenu').style.transform = "translateX(100%)";
+                    });
+                  });
+                  </script>
+
+          </header>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const burgerMenu = document.getElementById("burgerMenu");
+              const mobileMenu = document.getElementById("mobileMenu");
+              const closeMenu = document.getElementById("closeMenu");
+
+              burgerMenu.addEventListener("click", function () {
+                mobileMenu.style.transform = "translateX(0)";
+              });
+
+              closeMenu.addEventListener("click", function () {
+                mobileMenu.style.transform = "translateX(100%)";
+              });
+            });
+          </script>
+
+
+        <header class="home-hero">
+          <div class="home-content1">
+            <h1 class="home-title1"> Ignite Your Startup’s Growth</h1>
+            <span class="home-description1">
+              Transform ideas into results with expert web & app development, and data-driven marketing.
+            </span>
+            <img  alt="image" src="public/line-300w.png" class="home-image11" data-aos="fade-right" data-aos-delay="3000" data-aos-duration="3000" />
+          </div>
+          <div class="home-image12" id="about">
+            <img
+              alt="image"
+              src="public/hero%20%231-1500w.png"
+              class="home-image13"
+            />
+            <img
+              alt="image"
+              src="public/hero%20%232-1500w.png"
+              class="home-image14"
+            />
+          </div>
+        </header>
+        <section class="home-mission1">
+          <h2 class="home-text16">
+           <strong>Cogzor</strong> is your full-service digital partner for growth. We combine cutting-edge tech (Node.js, Spring Boot, React Native, etc.) with strategic marketing (SEO, social media, PPC, brand strategy, analytics) to build a strong online presence for your business.
+            Our agile team works as an extension of yours to deliver fast, reliable solutions that engage customers and drive revenue.
+          </h2>
+          <button class="button home-button16" data-aos="fade-up">
+            <a href="#contact" class="home-text17">Schedule a Free Consultation to kickstart your project today.</a>
+          </button>
+        </section>
+        <section class="home-improve">
+            <div class="home-heading1">
+              <h2 class="home-text18">Set New Heights — Improve Your Business</h2>
+              <p class="home-text19">
+               <strong>Cogzor</strong> specializes in end-to-end digital solutions tailored for startups and small businesses. We understand the challenges you face in a competitive market,
+                so our focus is on building impactful websites, apps, and marketing campaigns that get real results. With a modern, data-driven approach, 
+                we help you <strong>attract customers, grow brand awareness,</strong> and <strong>optimize performance</strong> at every step. In fact, 91% of marketers report that smart SEO improves website performance
+                , and we leverage those best practices to ensure you’re found by the right audience.
+              </p>
+            </div>
+
+            <div class="home-tabs">
+              <div class="home-switches">
+                <span class="switch switch-active" onclick="switchTab('professionals')">
+                  Connect with Professionals
+                </span>
+                <span class="switch" onclick="switchTab('mentors')">
+                  Connect with Mentors
+                </span>
+              </div>
+
+              <div class="home-content2">
+                  <!-- Professionals Content -->
+                  <div class="home-details1" id="tab-professionals">
+                    <div class="home-header2">
+                      <h2 class="home-text20">Website Engagement & Brand Strategy</h2>
+                      <div class="home-description2">
+                        <p class="home-text21">
+                          Our expert team crafts high-converting websites and digital platforms tailored to your users.
+                        </p>
+                        <p class="home-text22">
+                          From landing pages to full-stack web apps — we help your brand make a lasting digital impact.
+                        </p>
+                      </div>
+                    </div>
+                    <button  onclick="openForm()" class="button">
+                      <span class="home-text23">Get a Quote</span>
+                    </button>
+                  </div>
+
+                  <!-- Mentors Content -->
+                  <div class="home-details1" id="tab-mentors" style="display: none;">
+                    <div class="home-header2">
+                      <h2 class="home-text20">Mentorship for Growth & Tech Strategy</h2>
+                      <div class="home-description2">
+                        <p class="home-text21">
+                          Get access to mentors who align your vision with the right tech stack and business roadmap.
+                        </p>
+                        <p class="home-text22">
+                          We guide you on architecture, scaling, and smart decision-making.
+                        </p>
+                      </div>
+                    </div>
+                    <button  onclick="openForm()" class="button">
+                      <span class="home-text23">Talk to a Mentor</span>
+                    </button>
+                  </div>
+
+                  <!-- Image Container -->
+                  <div class="home-image15">
+                    <img
+                      alt="professionals"
+                      src="public/pexels-darina-belonogova-7959815%201-1300w.png"
+                      class="home-image16 tab-image"
+                      id="img-professionals"
+                      style="display: block;"
+                    />
+                    <img
+                      alt="mentors"
+                      src="public/pexels-darina-belonogova-7959815%201-1300w.png"
+                      class="home-image16 tab-image"
+                      id="img-mentors"
+                      style="display: none;"
+                    />
+                  </div>
+                </div>
+
+            </div>
+            
+        </section>  
+        <!-- Popup Form -->
+          <div class="popup-form-overlay" id="popupForm">
+            <div class="popup-form">
+              <span class="close-btn" onclick="closeForm()">×</span>
+              <h3>Let's Connect</h3>
+              <form id="connectForm">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+                <label for="interest">Interested In</label>
+                <select id="interest" name="interest" required>
+                  <option value="">-- Select an Option --</option>
+                  <option value="Website Engagement & Brand Strategy">Website Engagement & Brand Strategy</option>
+                  <option value="Mentorship for Growth & Tech Strategy">Mentorship for Growth & Tech Strategy</option>
+                </select>
+
+                <button type="submit" class="submit-btn">Submit</button>
+              </form>
+            </div>
+          </div>
+          <script>
+            function openForm() {
+              document.getElementById("popupForm").style.display = "flex";
+            }
+
+            function closeForm() {
+              document.getElementById("popupForm").style.display = "none";
+            }
+
+            document.getElementById("connectForm").addEventListener("submit", function (e) {
+              e.preventDefault();
+              alert("Form submitted!");
+              closeForm();
+              this.reset();
+            });
+          </script>
+
+        <script>
+              function switchTab(tab) {
+                const switches = document.querySelectorAll(".switch");
+                const proTab = document.getElementById("tab-professionals");
+                const mentorTab = document.getElementById("tab-mentors");
+
+                const proImg = document.getElementById("img-professionals");
+                const mentorImg = document.getElementById("img-mentors");
+
+                // Reset switch buttons
+                switches.forEach((s) => s.classList.remove("switch-active"));
+
+                if (tab === "professionals") {
+                  switches[0].classList.add("switch-active");
+                  proTab.style.display = "block";
+                  mentorTab.style.display = "none";
+                  proTab.classList.add("fade-in");
+                  proImg.style.display = "block";
+                  mentorImg.style.display = "none";
+                } else {
+                  switches[1].classList.add("switch-active");
+                  proTab.style.display = "none";
+                  mentorTab.style.display = "block";
+                  mentorTab.classList.add("fade-in");
+                  proImg.style.display = "none";
+                  mentorImg.style.display = "block";
+                }
+
+                setTimeout(() => {
+                  proTab.classList.remove("fade-in");
+                  mentorTab.classList.remove("fade-in");
+                }, 600);
+              }
+
+         </script>
+
+        <section class="home-services1" id="services">
+          <h2 class="home-text26">High-impact business services</h2>
+          <div class="home-cards">
+            <div class="home-row1" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
+              <card-wrapper class="card-wrapper">
+                <!--Card component-->
+                <div class="card-card card" onclick="openPopup(0)">
+                  <div class="card-header">
+                    <img
+                      alt="image"
+                      src="public/group%201643.svg"
+                      class="card-icon"
+                    />
+                    <h3 class="card-heading">
+                      <span>Custom Web Development</span>
+                    </h3>
+                  </div>
+                  <p class="card-text">
+                    <span>
+                     We craft scalable, high-performance websites and applications tailored to your business logic and growth goals, ensuring reliability and speed.
+                    </span>
+                  </p>
+                  <!-- Add full content (hidden) -->
+                  <div class="full-content" style="display: none;">
+                    <p>We build robust, scalable websites and web apps using Node.js and Spring Boot. Whether you need a marketing site, an e-commerce platform, or a complex web application, we deliver high-quality code and a smooth user experience. Our sites are fully responsive and optimized for speed – after all, 47% of visitors expect pages to load in 2 seconds or less
+                      . Faster sites mean happier users: Walmart found that each 1-second speed improvement boosted conversions by 2%.</p>
+                       <ul>
+                        <li>Responsive Design</li>
+                        <li>Optimized backend logic using Node.js/Spring Boo, API Integrationst</li>
+                        <li>CMS/E-commerce,</li>
+                        <li>SEO & Performance Optimization</li>
+                    </ul>
+                  </div>
+                </div>
+              </card-wrapper>
+              <card-wrapper-eatf class="card-wrapper-eatf">
+                <!--Card component-->
+                <div class="card-card1 card">
+                  <div class="card-header1">
+                    <img
+                      alt="image"
+                      src="public/group%201644.svg"
+                      class="card-icon1"
+                    />
+                    <h3 class="card-heading1">
+                      <span>Mobile App Development</span>
+                    </h3>
+                  </div>
+                  <p class="card-text1">
+                    <span>
+                      Reach customers on their favorite devices with our mobile solutions. We build cross-platform apps (React Native/Flutter) and native iOS/Android apps to fit your needs.
+                    </span>
+                  </p>
+                   <!-- Add full content (hidden) -->
+                  <div class="full-content" style="display: none;">
+                    <p> Reach customers on their favorite devices with our mobile solutions. We build cross-platform apps (React Native/Flutter) and
+                       native iOS/Android apps to fit your needs. Our apps focus on great UI/UX and performance, keeping users engaged and coming back.
+                        With 88% of people spending significant time on smartphones,
+                     a strong mobile presence is no longer optional – it’s essential. Whether it’s a consumer-facing app or an internal tool, we guide you through from idea to launch.</p>
+                    <ul>
+                      <li>UX/UI Design</li>
+                      <li>Native App (iOS/Android)</li>
+                      <li> Cross-Platform (React Native,Flutter)</li>
+                      <li>Backend APIs</li>
+                    </ul>
+                  </div>
+                </div>
+              </card-wrapper-eatf>
+            </div>
+            <div class="home-row2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
+              <card-wrapper-mxj7 class="card-wrapper-mxj7">
+                <!--Card component-->
+                <div class="card-card2 card">
+                  <div class="card-header2">
+                    <img
+                      alt="image"
+                      src="public/group%201645.svg"
+                      class="card-icon2"
+                    />
+                    <h3 class="card-heading2">
+                      <span>Digital Marketing & SEO</span>
+                    </h3>
+                  </div>
+                  <p class="card-text2">
+                    <span>
+                       We amplify your reach online. Our team handles search engine optimization (SEO), pay-per-click (PPC) advertising, 
+                       and social media marketing to put your brand in front of customers when they’re looking.
+                    </span>
+                  </p>
+                   <!-- Add full content (hidden) -->
+                    <div class="full-content" style="display: none;">
+                      <p>We amplify your reach online. Our team handles search engine optimization (SEO), pay-per-click (PPC) advertising, and social media marketing to put your brand in front of customers when they’re looking. We focus on content strategy, link-building, and targeted ads that deliver measurable ROI.
+                         For example, half of consumers discover new products via social media,
+                          so we craft social campaigns that convert. </p>
+                      <ul>
+                        <li>SEO, PPC, Social Media</li>
+                        <li>Content Strategy</li>
+                        <li>Website Optimization</li>
+                        <li>Analytics</li>
+                      </ul>
+                    </div>
+                </div>
+              </card-wrapper-mxj7>
+              <card-wrapper-kgcw class="card-wrapper-kgcw">
+                <!--Card component-->
+                <div class="card-card3 card">
+                  <div class="card-header3">
+                    <img
+                      alt="image"
+                      src="public/group%201646.svg"
+                      class="card-icon3"
+                    />
+                    <h3 class="card-heading3">
+                      <span>Brand Strategy & Analytics</span>
+                    </h3>
+                  </div>
+                  <p class="card-text3">
+                    <span>
+                      We help you carve out a unique identity in your market. Our branding experts develop a clear brand message and visual identity that resonates with your target audience. 
+                      </span>
+                  </p>
+                   <!-- Add full content (hidden) -->
+                    <div class="full-content" style="display: none;">
+                      <p>We help you carve out a unique identity in your market. Our branding experts develop a clear brand message and visual identity that resonates with your target audience. We pair this with analytics to continuously refine your strategy—every decision is backed by data. 
+                        Our analytics and optimization services ensure that every marketing dollar counts, drawing on insights (like conversion rates and traffic data) to improve performance.</p>
+                      <ul>
+                        <li>Brand Identity</li>
+                        <li>Messaging, Market Research</li>
+                        <li> Data Analytics</li>
+                        <li>Conversion Optimization</li>
+                      </ul>
+                    </div>
+                </div>
+              </card-wrapper-kgcw>
+            </div>
+          </div>
+        </section>
+        <!-- Popup modal structure -->
+        <div class="service-modal" id="serviceModal">
+          <div class="service-modal-content">
+            <span class="close-button" onclick="closeServiceModal()">&times;</span>
+            <div class="modal-inner">
+              <img id="modalImage" src="" alt="Service Icon" class="modal-image" />
+              <div class="modal-text">
+                <h2 id="modalTitle">Service Title</h2>
+                <p id="modalDescription">
+                  Service description goes here. You can now add extended info here for each card.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <script>
+          function openServiceModal(title, description, imageSrc) {
+            document.getElementById('modalTitle').innerText = title;
+            document.getElementById('modalDescription').innerText = description;
+            document.getElementById('modalImage').src = imageSrc;
+            document.getElementById('serviceModal').style.display = 'flex';
+            document.body.classList.add("modal-open");
+          }
+
+          function closeServiceModal() {
+            document.getElementById('serviceModal').style.display = 'none';
+            document.body.classList.remove("modal-open");
+          }
+
+          // Event binding after DOM ready
+         document.addEventListener("DOMContentLoaded", () => {
+        const cards = document.querySelectorAll(".card-card, .card-card1, .card-card2, .card-card3");
+
+        cards.forEach(card => {
+          card.addEventListener("click", () => {
+            const title = card.querySelector("h3").innerText;
+            const img = card.querySelector("img").getAttribute("src");
+            const fullContent = card.querySelector(".full-content").innerHTML;
+
+            openServiceModal(title, fullContent, img);
+            });
+          });
+        });
+
+        function openServiceModal(title, htmlContent, imageSrc) {
+          document.getElementById('modalTitle').innerText = title;
+          document.getElementById('modalDescription').innerHTML = htmlContent;
+          document.getElementById('modalImage').src = imageSrc;
+          document.getElementById('serviceModal').style.display = 'flex';
+          document.body.classList.add("modal-open");
+         }
+
+        </script>
+
+        <section class="home-testimonials">
+          <div class="home-container2">
+            <div class="home-content3">
+              <div class="active-quote quote">
+                <img
+                  alt="image"
+                  src="public/foto-sushi-6anudmpilw4-unsplash-200h.png"
+                  role="quote-avatar"
+                  class="home-image17"
+                />
+                <p role="quote-content" class="home-quote2">
+                   "Cogzor transformed our outdated system into a lightning-fast web platform. Their team’s dedication and delivery speed are top-tier."
+                </p>
+                <div class="home-author1">
+                  <span role="quote-author" class="home-name1">Ananya D.</span>
+                  <span role="quote-origin" class="home-origin1">
+                    Founder, Mart
+                  </span>
+                </div>
+              </div>
+              <div class="quote">
+                <img
+                  alt="image"
+                  src="public/foto-sushi-ocow8-uiajk-unsplash%20%5B1%5D%201-200h.png"
+                  role="quote-avatar"
+                  class="home-image18"
+                />
+                <p role="quote-content" class="home-quote4">
+                   <span>"Working with Cogzor has been a game-changer."</span><br />
+                  <span>Our internal tools are more efficient, and the UI is absolutely stunning. Highly recommended for scalable web solutions.</span>
+                  <br />
+                </p>
+                <div class="home-author2">
+                  <span role="quote-author" class="home-name2">Rajat Malh.</span>
+                  <span role="quote-origin" class="home-origin2">
+                    COO, RetailX
+                  </span>
+                </div>
+              </div>
+              <div class="quote">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1586716402203-79219bede43c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3RyYWl0fGVufDB8fHx8MTY2OTcyODk4OA&amp;ixlib=rb-4.0.3&amp;w=200"
+                  role="quote-avatar"
+                  class="home-image19"
+                />
+                <p role="quote-content" class="home-quote6">
+                 <span>"From MVP to full launch, Cogzor handled it all."</span><br />
+                  <span>The communication, clarity, and execution were outstanding throughout the journey.</span>
+                  <br />
+                </p>
+                <div class="home-author3">
+                  <span role="quote-author" class="home-name3">Sana Verma</span>
+                  <span role="quote-origin" class="home-origin3">TechCo</span>
+                </div>
+              </div>
+              <div class="quote">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1618151313441-bc79b11e5090?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxwb3RyYWl0fGVufDB8fHx8MTY2OTcyODk4OA&amp;ixlib=rb-4.0.3&amp;w=200"
+                  role="quote-avatar"
+                  class="home-image20"
+                />
+                <p role="quote-content" class="home-quote8">
+                  <span>"We’ve seen a 60% improvement in performance."</span><br />
+                   <span>Thanks to Cogzor’s backend optimization and cloud deployment strategies. Their expertise truly stands out.</span>
+        
+                </p>
+                <div class="home-author4">
+                  <span role="quote-author" class="home-name4">Kunal Bhatt</span>
+                  <span role="quote-origin" class="home-origin4">Rebo</span>
+                </div>
+              </div>
+              <div class="home-controls">
+                <div id="quote-previous" class="home-previous">
+                  <img
+                    alt="image"
+                    src="public/frame.svg"
+                    class="home-image21"
+                  />
+                </div>
+                <div id="quote-next" class="home-next">
+                  <img
+                    alt="image"
+                    src="public/frame.svg"
+                    class="home-image22"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="home-container4">
+              <script>
+                /*
+                            Quote Slider - Code Embed
+                            */
+
+                            let current = 1;
+
+                            const nextButton = document.querySelector('#quote-next');
+                            const previousButton = document.querySelector('#quote-previous');
+                            const quotes = document.querySelectorAll('.quote');
+
+                            if(nextButton&&previousButton){
+                              nextButton.addEventListener('click', () => {
+                              quotes.forEach((quote) => {
+                              quote.classList.remove('active-quote');
+                              });
+
+                              current == quotes.length ? current = 1 : current++
+                              quotes[current-1].classList.add('active-quote')
+                              });
+
+                              previousButton.addEventListener('click', () => {
+                              quotes.forEach((quote) => {
+                              quote.classList.remove('active-quote');
+                              });
+
+                              current == 1 ? current = quotes.length : current--
+                              quotes[current-1].classList.add('active-quote')
+                              });
+
+                            }
+              </script>
+            </div>
+          </div>
+        </section>
+        <section class="home-partners">
+          <div class="home-content4">
+            <h2 class="home-text41">Our partners</h2>
+            <p class="home-text42">
+              We integrate with and leverage industry-leading platforms to give you a competitive edge. 
+              From hosting on AWS or Google Cloud to developing with tools like SprngBoot, Node.js React, Angular, and Flutter, we use the best technologies and partner with trusted vendors. 
+              This means faster development, greater reliability, and more powerful solutions for your business.
+               Our network of partners also keeps us ahead of the curve – so you get cutting-edge features (like AI-driven analytics) without the headache of managing everything yourself.
+            </p>
+          </div>
+          <div class="home-partners-desktop">
+            <div class="home-column10">
+              <div class="partner-container" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/vector%5B1%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/group%202108.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/vector%5B2%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+            </div>
+            <div class="home-column11">
+              <div class="partner-container" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/group%202107.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/vector%5B3%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/vector%5B4%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/group%202110.svg"
+                  class="partner-image"
+                />
+              </div>
+            </div>
+            <div class="home-column12">
+              <div class="partner-container" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/group%202111.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/group%202108.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container"data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/vector%5B5%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container"data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/vector%5B1%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container"data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/group%202108.svg"
+                  class="partner-image"
+                />
+              </div>
+            </div>
+            <div class="home-column13">
+              <div class="partner-container"data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/vector%5B2%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container"data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/group%202110.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container"data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/group%202107.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container"data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
+                <img
+                  alt="image"
+                  src="public/vector%5B3%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="home-partners-mobile">
+            <div class="home-row3">
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/group%202108.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/group%202111.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/vector%5B5%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/vector%5B4%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+            </div>
+            <div class="home-column14">
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/vector%5B1%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/vector%5B3%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/vector%5B4%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/group%202107.svg"
+                  class="partner-image"
+                />
+              </div>
+            </div>
+            <div class="home-column15">
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/group%202111.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/group%202108.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/group%202110.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/vector%5B1%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+            </div>
+            <div class="home-column16">
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/vector%5B2%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/vector%5B3%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+              <div class="partner-container">
+                <img
+                  alt="image"
+                  src="public/vector%5B4%5D.svg"
+                  class="partner-image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-services2" id="insights">
+          <div class="home-heading2">
+            <h2 class="home-text43">Explore Insights & Resources</h2>
+            <p class="home-text44">
+              Stay informed with the latest tips and trends:
+            </p>
+          </div>
+          <div class="home-sections">
+            <div class="home-row4">
+              <div class="home-section1">
+                <div class="home-header3">
+                  <h3 class="home-text45">Understanding User-Centric Design</h3>
+                  <div class="home-description3">
+                    <p class="home-text46">
+                     Learn how a user-first design approach can transform your digital product’s engagement and usability.
+                      </p>
+                    <p class="home-text47">
+                      Cogzor’s UI/UX experts share insights and case studies from real-world implementations.
+                    </p>
+                  </div>
+                </div>
+                <button class="button">
+                  <span>
+                    <span>Read more</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+              <div class="home-section2">
+                <div class="home-header4">
+                  <h3 class="home-text51">Scaling Startups with Smart Tech</h3>
+                  <div class="home-description4">
+                    <p class="home-text52">
+                       Discover how we help early-stage ventures grow rapidly using agile development, cloud platforms, and automation.
+                      </p>
+                    <p class="home-text53">
+                      From MVP to full-scale applications — we’ve got you covered.
+                    </p>
+                  </div>
+                </div>
+                <button class="button">
+                  <span>
+                    <span>Read more</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="home-row5">
+              <div class="home-section3">
+                <div class="home-header5">
+                  <h3 class="home-text57">Building High-Performance Teams</h3>
+                  <div class="home-description5">
+                    <p class="home-text58">
+                     Great digital products need great teams. Learn how to attract and retain top talent in tech.
+                    </p>
+                    <p class="home-text59">
+                       Insights from Cogzor’s leadership on team dynamics and organizational culture.
+                      </p>
+                  </div>
+                </div>
+                <button class="button">
+                  <span>
+                    <span>Read more</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+              <div class="home-section4">
+                <div class="home-header6">
+                  <h3 class="home-text63">How We Empower Businesses</h3>
+                  <div class="home-description6">
+                    <p class="home-text64">
+                      From SMEs to global enterprises, we design scalable digital systems that drive growth and efficiency.
+                      </p>
+                    <p class="home-text65">
+                       See how Cogzor’s solutions are transforming industries and improving ROI.
+                      </p>
+                  </div>
+                </div>
+                <button class="button">
+                  <span>
+                    <span>Read more</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-banner"  id="contact" >
+          <div class="home-container5">
+            <div class="home-header7">
+              <h2 class="home-title2">Ready to Scale Your Business?</h2>
+              <p class="home-description7">
+                 Your next level of growth is just a conversation away. <br>
+                 Whether you’re refining a brand strategy, building a new app, or launching a marketing campaign, <strong>Cogzor</strong> has the expertise and drive to make it happen. 
+                  <br><strong>Contact us today</strong> to discuss your project and get a custom plan – we’re here to help your startup shine.
+                </p>
+            </div>
+            <button class="home-consult-btn button"  id="openFormBtn" >
+              <span>
+                <span>Book a Free Consultation</span>
+                <br />
+              </span>
+            </button>
+          </div>
+        </section>
+        <!-- Popup Form -->
+        <div class="popup-form-overlay" id="popupOverlay">
+          <div class="popup-form">
+            <span class="close-btn" id="closeFormBtn">&times;</span>
+            <h3>Book Your Free Consultation</h3>
+            <form id="consultationForm">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" required />
+
+              <label for="phone">Mobile Number</label>
+              <input type="tel" id="phone" placeholder="Your Mobile Number" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your Email" required />
+
+              <label for="service">Service Interested In</label>
+              <select id="service" required>
+                <option value="">Select a Service</option>
+                <option>Web Development</option>
+                <option>UI/UX Design</option>
+                <option>Digital Marketing</option>
+                <option>App Development</option>
+                <option>SEO Optimization</option>
+              </select>
+
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+        <script>
+          const openBtn = document.getElementById('openFormBtn');
+          const closeBtn = document.getElementById('closeFormBtn');
+          const overlay = document.getElementById('popupOverlay');
+
+          openBtn.addEventListener('click', () => {
+            overlay.style.display = 'flex';
+          });
+
+          closeBtn.addEventListener('click', () => {
+            overlay.style.display = 'none';
+          });
+
+          window.addEventListener('click', (e) => {
+            if (e.target === overlay) {
+              overlay.style.display = 'none';
+            }
+          });
+
+          // Optional: Form submit action
+          document.getElementById('consultationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you! We’ll get in touch soon.');
+            overlay.style.display = 'none';
+            this.reset();
+          });
+        </script>
+
+        <section class="home-mission2" id="mission">
+          <div class="home-content5">
+            <h2 class="home-text72">
+              Our mission is to empower businesses with intelligent, scalable, and future-ready digital solutions.
+            </h2>
+            <div class="home-description8">
+              <p class="home-text73">
+                At <strong>Cogzor</strong>, we are dedicated to transforming the way startups, SMEs, and enterprises operate by delivering tailored web development, automation, and cloud-based solutions. We believe in building technology that solves real problems and supports sustainable growth.
+              </p>
+              <p class="home-text74">
+                With a focus on innovation, agility, and client success, our team works closely with you to identify pain points, unlock opportunities, and drive measurable results. We are not just a service provider — we are your long-term technology partner.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="home-galleries">
+          <div class="home-gallery-desktop">
+            <div class="home-column17" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
+              <img
+                alt="image"
+                src="public/pexels-darina-belonogova-7959670%201-1300w.png"
+                class="home-image54"
+              />
+            </div>
+            <div class="home-column18">
+              <div class="home-row6">
+                <div class="home-yellow1"></div>
+                <img
+                  alt="image"
+                  src="public/pexels-darina-belonogova-8373875%203-1300w.png"
+                  class="home-image55"
+                  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
+                />
+              </div>
+              <div class="home-row7">
+                <img
+                  alt="image"
+                  src="public/pexels-darina-belonogova-7964869%201-500w.png"
+                  class="home-image56"
+                  data-aos="slide-up" data-aos-delay="100" data-aos-duration="1500"
+                />
+                <img
+                  alt="image"
+                  src="public/group%202106.svg"
+                  class="home-image57"
+                  data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="home-gallery-mobile">
+            <div class="home-column19">
+              <img
+                alt="image"
+                src="public/pexels-darina-belonogova-7959670%201-1300w.png"
+                class="home-image58"
+              />
+              <img
+                alt="image"
+                src="public/pexels-darina-belonogova-7964869%201-500w.png"
+                class="home-image59"
+              />
+            </div>
+            <div class="home-column20">
+              <div class="home-yellow2"></div>
+              <img
+                alt="image"
+                src="public/pexels-darina-belonogova-8373875%203-1300w.png"
+                class="home-image60"
+              />
+              <div class="home-row8">
+                <img
+                  alt="image"
+                  src="public/group%202106.svg"
+                  class="home-image61"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-mission3">
+          <div class="home-content6">
+            <cite class="home-quote9" id="quoteText">
+              “We are passionate technologists building smart, scalable solutions.”
+            </cite>
+            <div class="home-author5">
+              <img
+                id="teamImage"
+                alt="team-member"
+                src="public/AyushImg.jpg"
+                class="home-avatar"
+              />
+              <div class="home-details2">
+                <span class="home-name5" id="teamName">Ayush Kushwaha,</span>
+                <span class="home-origin5" id="teamRole">Full-Stack Developer</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <script>
+          const teamMembers = [
+            {
+              name: "Ayush Kushwaha",
+              role: "Full-Stack Developer",
+              quote: "We are passionate technologists building smart, scalable solutions.",
+              image: "public/AyushImg.jpg"
+            },
+            {
+              name: "Soumya Sen",
+              role: "UI/UX & Frontend Developer",
+              quote: "Design isn’t just how it looks, it’s how it works — that’s our belief.",
+              image: "public/cogzor_Logo.png"
+            },
+            {
+              name: "Kartikey",
+              role: "Cloud & Backend Engineer",
+              quote: "We engineer cloud-native systems with performance and reliability in mind.",
+              image: "public/cogzor_Logo.png"
+            }
+          ];
+
+          let currentIndex = 0;
+
+          function rotateTeam() {
+            const member = teamMembers[currentIndex];
+            document.getElementById("teamName").textContent = `${member.name},`;
+            document.getElementById("teamRole").textContent = member.role;
+            document.getElementById("quoteText").textContent = `“${member.quote}”`;
+            document.getElementById("teamImage").src = member.image;
+
+            currentIndex = (currentIndex + 1) % teamMembers.length;
+          }
+
+          setInterval(rotateTeam, 5000);
+        </script>
+
+        <section class="home-newsletter">
+          <div class="home-header8">
+            <h2 class="home-text75">Stay Ahead with Cogzor</h2>
+            <p class="home-text76">
+              Subscribe to get insights on technology, product updates, and smart digital solutions straight to your inbox.
+            </p>
+          </div>
+          <div class="home-content7">
+            <div class="home-email">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="home-textinput input"
+              />
+              <div class="home-submit">
+                <img alt="image" src="public/frame.svg" class="home-image62" />
+              </div>
+            </div>
+            <div class="home-notice1">
+              <span class="home-notice2">
+                 We respect your privacy. No spam, ever. Unsubscribe anytime.
+              </span>
+            </div>
+          </div>
+        </section>
+        <footer-wrapper class="footer-wrapper">
+            <footer class="footer-footer">
+              <!-- Left: Company Info -->
+              <div class="footer-information">
+                <div class="footer-content">
+                  <!-- Branding and Description -->
+                  <div class="footer-header">
+                    <img class="footer-logo"
+                            alt="logo"
+                            src="public/cogzor_Logo.png"
+                            class="branding-image"
+                          />
+                    <p class="footer-text10">
+                      Cogzor is a smart, scalable tech solutions company delivering
+                      web and digital innovation across India. Based in Delhi-NCR – we're helping startups, SMEs, and enterprises grow.
+                    </p>
+                  </div>
+
+                  <!-- Contact Info -->
+                  <div class="footer-contact-list">
+                    <div class="footer-contact1">
+                      <img
+                        alt="email"
+                        src="public/group%201639.svg"
+                        class="footer-image1"
+                      />
+                      <span class="footer-text11">
+                        <a href="mailto:hello@cogzor.com">cogzor@gmail.com</a>
+                      </span>
+                    </div>
+                    <div class="footer-contact2">
+                      <img
+                        alt="phone"
+                        src="public/group%201640.svg"
+                        class="footer-image2"
+                      />
+                      <span class="footer-text12">
+                        <a href="tel:+91222345987">+91 7428662683</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Copyright -->
+                <span class="footer-copyright">
+                  <span>©2025 <strong>Cogzor</strong> Technologies Pvt. Ltd. All Rights Reserved.</span>
+                </span>
+              </div>
+
+              <!-- Right: Footer Links -->
+              <div class="footer-links">
+                <div class="footer-column1">
+                  <a href="/about" class="link">About</a>
+                  <a href="/services" class="link">Services</a>
+                  <a href="/projects" class="link">Projects</a>
+                  <a href="/team" class="link">Team</a>
+                  <a href="/blog" class="link">Blog</a>
+                  <a href="/contact" class="link">Contact</a>
+                </div>
+                <div class="footer-column2">
+                  <a href="https://www.linkedin.com/company/cogzor" target="_blank" class="link">LinkedIn</a>
+                  <a href="https://www.instagram.com/cogzor" target="_blank" class="link">Instagram</a>
+                  <a href="https://twitter.com/cogzor" target="_blank" class="link">Twitter</a>
+                  <a href="https://facebook.com/cogzor" target="_blank" class="link">Facebook</a>
+                </div>
+              </div>
+            </footer>
+          </footer-wrapper>
+
+        <div>
+          <div class="home-container7">
+            <style>
+              .partner-container:hover .partner-image{
+                  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(75deg) brightness(101%) contrast(102%);
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({   
+    once: false,  
+  });
+</script>
+
+  </body>
+</html>
